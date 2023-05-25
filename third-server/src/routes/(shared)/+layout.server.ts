@@ -7,6 +7,7 @@ export const load: LayoutServerLoad = async ({ locals, cookies }) => {
     if (locals.userid) {
         return {
             userid: locals.userid,
+            mfa: locals.mfa
         }
     }
 

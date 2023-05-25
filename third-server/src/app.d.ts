@@ -6,11 +6,12 @@ declare namespace App {
 	// what data should pass to the user in locals
 	interface Locals {
 		userid: string;
+		mfa: boolean;
 	}
 
 	// interface PageData {}
 
-	// interface PageError {}
+	// interface Error {}
 
 	// interface Platform {}
 }

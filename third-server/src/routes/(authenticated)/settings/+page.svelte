@@ -1,8 +1,10 @@
+<main>
 <form method="POST" action="?/logout">
-	<button>LOGOUT</button>
+	<button href="/login">LOGOUT</button>
 </form>
 
 
 <form method="POST" action="?/deleteaccount">
-	<button>DELETE ACCOUNT</button>
+	<button href="/login">DELETE ACCOUNT</button>
 </form>
+</main>

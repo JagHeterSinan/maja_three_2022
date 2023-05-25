@@ -3,17 +3,15 @@
     export let data: LayoutServerData;
 </script>
 
-<nav>
-    {#if data?.userid}
-        <a href="/">Home</a>
-        <a href="/settings">Settings</a>
-    {:else}
-        <a href="/login">Login</a>
-        <a href="/register">Register</a>
-    {/if}
 
-    <a href="/info">Info</a>
-    <a href="/support">Support</a>
-</nav>
 
+
+<body>
+    <style>
+    .link{
+        color:white;
+        text-decoration: none;
+    }
+    </style>
+    </body>
 <slot />

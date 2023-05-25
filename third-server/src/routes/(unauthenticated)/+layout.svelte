@@ -1,8 +1,9 @@
-<nav>
-    <a href="/login">Login</a>
-    <a href="/register">Register</a>
-    <a href="/info">Info</a>
-    <a href="/support">Support</a>
-</nav>
-
+<body>
+<style>
+.link{
+    color:white;
+    text-decoration: none;
+}
+</style>
+</body>
 <slot />
